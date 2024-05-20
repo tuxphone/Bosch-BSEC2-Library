@@ -1,5 +1,5 @@
 Import('env')
-from os.path import join, realpath
+from os.path import join, realpath, exists
 
 # We need the equivalent of build.mcu in Arduino board definitions. 
 # For ESP this is BOARD_MCU
